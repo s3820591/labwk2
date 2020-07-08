@@ -9,10 +9,5 @@ public class Ex3 {
         for (int i = 0; i<lenght; i++)
             arr[i] = input.nextInt();
 
-
-
-
-
-
     }
 }
