@@ -21,10 +21,11 @@ public class Ex1 {
         input.nextLine();
         System.out.print("Enter a month: ");
         String month = input.nextLine();
-        for (int i = 0; i<=7; i++) {
-            if (month == months[i]) {
+        for (int i = 0; i<=6; i++) {
+            if (month == months[i])
                 System.out.print(month + year + "has 31 days");
-            }
+            else System.out.println(month + year + " has 30 days");
+
         }
     }
 }
